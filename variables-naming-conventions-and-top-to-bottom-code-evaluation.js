@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let name = "Alice";
+let number = 5;
+let cost = 20;
+let store = "walmart"
+let fruits = "apples"
+let d = name + " bought " + number + " " + fruits + " for $" + cost + " at " + store; 
 
 console.log(d);
