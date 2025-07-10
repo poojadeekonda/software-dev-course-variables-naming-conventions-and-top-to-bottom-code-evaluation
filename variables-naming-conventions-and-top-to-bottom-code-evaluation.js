@@ -24,11 +24,11 @@ Things to reflect on:
   
 */
 
-let name = "Alice";
-let number = 5;
-let cost = 20;
-let store = "walmart"
-let fruits = "apples"
-let d = name + " bought " + number + " " + fruits + " for $" + cost + " at " + store; 
+let customerName = "Alice";
+let itemQuantity = 5;
+let productCost = 20;
+let placeOfPurchase = "walmart"
+let purchaseItem = "apples"
+let billSummary = customerName + " bought " + itemQuantity + " " + purchaseItem + " for $" + productCost + " at " + placeOfPurchase; 
 
-console.log(d);
+console.log(billSummary);
